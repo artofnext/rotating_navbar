@@ -5,18 +5,24 @@ p, i {
     padding-top: 40%; 
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .scene {
-    width: 90px;
+    width: 100px;
     height: 100px;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     transform-style: preserve-3d;
     transition: all 0.5s ease-out;
     transform-origin: 0 0;
